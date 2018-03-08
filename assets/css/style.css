@@ -1,0 +1,361 @@
+html,body{
+    height: 100%;
+    padding: 0;    
+    margin: 0px;
+    background-image: url('../../assets/images/round.png');     
+    background-repeat: repeat;
+    min-height: 100%;
+}
+
+header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    border-bottom: 2px double #cccccc;
+    margin: 0;    
+}
+
+section{    
+    width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+
+h1{
+    background-color: #4ba9a5;
+    color: #ffffff;
+    padding: 40px;
+    float: left;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{    
+    float: right;    
+    font-size: 18px;
+    padding: 40px 0px 40px 40px;
+    margin: 0px;
+}
+
+li{       
+    text-align: right;
+    display: inline; 
+    margin: 10px;
+    padding: 0px 15px 0px 0px;  
+    border-right: 1px solid #dddddd;    
+}
+
+li:last-of-type{
+    border-right: none;
+    padding: 0px; 
+    margin: 5px;
+}
+
+.option_menu{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+
+}
+
+.content{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: #4ba9a5; 
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 3px solid #dddddd; 
+}
+
+#image_aboutme{
+    width: 250px;
+    height: 300px; 
+    float: left;
+    margin: 30px 20px;
+}
+
+#content_information{
+    background-color: #ffffff;
+    border: 2px solid #dddddd; 
+    width: 650px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #999999;    
+    line-height: 2;
+}
+
+h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 23px;
+    color: #4ba9a5; 
+    padding: 15px;
+    border-bottom: 3px solid #dddddd; 
+    margin: 20px;
+}
+
+#connect{
+    background-color: #ffffff;
+    border: 2px solid #dddddd; 
+    width: 270px;
+    float: right;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.connect_image{
+    display: inline;   
+    margin: 5px;
+}
+
+footer{
+    background-color: #666666;
+    border-top: 10px solid #4ba9a5;
+    padding: 30px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #dfdfdf;
+    text-align: center;
+}
+
+.inside_contact{
+    padding: 20px;
+    overflow: hidden;
+}
+
+label{
+    color: #666666;
+}
+
+input,textarea{
+    color: #666666;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 36px;
+}
+
+#message{
+    height: 195px;
+}
+
+#submit{
+    background-color: #4ba9a5;
+    color: #ffffff;
+    width: 112px;
+    height: 41px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.portfolio_content{
+    float: left;
+    position: relative;
+}
+
+.portfolio_link{
+    float: left;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.green_div{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4ba9a5;
+    padding: 20px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+    width: 245px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 21px;
+}
+
+#portfolio_image{
+    height: 200px;
+    width: 285px;
+}
+
+@media screen and (max-width: 980px) {
+    section{    
+        width: 711px;
+        margin: 0 auto 0 auto;
+        overflow: auto;
+    }
+
+    #content_information{
+        background-color: #ffffff;
+        border: 2px solid #dddddd; 
+        width: 409px;        
+        display: inline;
+        overflow: visible;
+    }
+
+    #image_aboutme{
+        width: 350px;
+        height: 350px; 
+        margin: 30px 20px;
+    }
+
+    .portfolio_content{
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .portfolio_link{
+        height: 200px;
+        width: 285px;
+    }
+
+    #portfolio_image{
+        height: 200px;
+        width: 285px;
+    }
+
+    .green_div{
+        position: relative;
+        bottom: 80px;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section{    
+        width: 728px;
+        margin: 0 auto 0 auto;
+        overflow: auto;
+    }
+
+    #content_information{
+        width: 650px;
+        clear: both;
+    }
+
+    #connect{
+        width: 650px;
+        float: left;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .connect_image{
+       padding-left: 20px;
+    }
+
+    .portfolio_content{
+        float: left;
+    }
+
+    .portfolio_link{
+        height: 185px;
+        width: 260px;
+    }
+
+    #portfolio_image{
+        height: 185px;
+        width: 260px;
+    }
+
+    .green_div{
+        width: 220px;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 640px) {   
+
+      h1{
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    ul{
+        text-align: center; 
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        overflow: hidden;  
+    }
+
+    li{
+        text-align: center; 
+    }
+
+    section{    
+        width: 100%;
+        margin: 0 auto 0 auto;
+        overflow: auto;
+    }
+
+    #image_aboutme{
+        width: 90%;
+        height: 40%; 
+        margin: 30px 20px;
+    }
+
+    #content_information{
+        background-color: #ffffff;
+        border: 2px solid #dddddd; 
+        width: 80%;        
+        display: inline;
+        overflow: visible;
+        margin-left: 20px
+    }
+
+    #connect{
+        width: 80%;
+        float: left;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px
+    }
+
+    .portfolio_link{
+        height: 400px;
+        width: 400px;
+    }
+
+    #portfolio_image{
+        height: 400px;
+        width: 400px;        
+    }
+
+    .green_div{
+        width: 340px;
+        bottom: 120px;
+        padding: 30px;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+
